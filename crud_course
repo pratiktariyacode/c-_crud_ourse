@@ -24,6 +24,7 @@ namespace krishna_crud12
             button2.Visible = false;
             button3.Visible = false;
             button4.Visible = false;
+            button5.Visible = false;
             textBox1.Text = "";
             comboBox1.Text = "--select course--";
             comboBox1.Items.Add("bca");
@@ -137,6 +138,7 @@ namespace krishna_crud12
 
                 textBox1.Text = "";
                 comboBox1.Text = "--select course--";
+                                button5.Visible = true;
 
             }
             catch (Exception ex)
@@ -149,6 +151,7 @@ namespace krishna_crud12
         private void button5_Click(object sender, EventArgs e)
         {
             DataUpdate();
+            button5.Visible = false;
         }
 '
 //data text logink
